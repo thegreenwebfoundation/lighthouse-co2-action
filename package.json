@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lighthouse-check": "npx lighthouse https://thegreenwebfoundation.org   --quiet --chrome-flags='--headless' --output-path=./lighthouse-results.html"
+    "lighthouse-check": "npx lighthouse https://thegreenwebfoundation.org  --chrome-flags='--headless' --output-path=./lighthouse-results.html"
   },
   "repository": {
     "type": "git",
