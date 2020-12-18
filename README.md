@@ -36,9 +36,9 @@ A cronjob will check the site for you every day, and every day, you'll have a si
 
 ## Todo
 
-- [ ] make the url changable, like an environment variable, instead having it hard coded
-- [ ] add the crontab, so a lighthouse check can be made every day without you needing to remember
-- [ ] figure out how to make the lighthouse json report commit to the correct branch
+- [ ] make the url easy to change, like an environment variable, instead having it hardcoded (good first issue!)
+- [x] add the cronjob workflow, [so a lighthouse check can be made every day without you needing to remember](https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows#scheduled-events)
+- [ ] figure out how to make the lighthouse json report commit to the separate 'runs' branch, [see this post by Simon Willison on what git-scraping is, and why it's neat](https://simonwillison.net/2020/Oct/9/git-scraping/).
 - [ ] add conversion from data tranferred, to CO2. Ideally, by adapting [@dvalezquez's lighthouse-plugin-co2 extension](https://github.com/dvelasquez/carbon-tools), to use [co2.js](https://github.com/thegreenwebfoundation/co2.js), it's in use on sitespeed.io already.
 - [ ] add a way to check using [the TGWF grid-intensity npm module](https://github.com/thegreenwebfoundation/grid-intensity) to run the job when energy is greenest (running computers to check websites uses energy too, so try to do it when the grid is greenest!)
 - [ ] oh, jeez, document this better
