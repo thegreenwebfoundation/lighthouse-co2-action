@@ -32,6 +32,10 @@ That's it.
 
 A cronjob will check the site for you every day, and every day, you'll have a single page report, like the one below you can share with anyone else in your team, showing how accessible the site is, how it scores in terms of perfomance, search engine visibility and so on, and how to improve it.
 
+![Sample lighthouse report](docs/img/sample-report.png)
+
+
+(_Sheesh - it looks like we need to give our site some love huh? We're working on it, and now this way we can easily track changes over time. And so can you!_)
 
 
 ## Todo
