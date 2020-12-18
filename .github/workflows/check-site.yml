@@ -1,7 +1,6 @@
 name: Test out
 
-on:
-  - push:
+on: [push]
 
 jobs:
   prepare_branch:
