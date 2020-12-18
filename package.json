@@ -1,0 +1,28 @@
+{
+  "name": "lighthouse-co2-action",
+  "version": "0.0.1",
+  "description": "A forkable repo, as an experiment in running github actions to git-scrape a sites to record how well they perform in terms of accessibility, performance, and carbon emissions from transfer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lighthouse-check": "npx lighthouse https://thegreenwebfoundation.org   --quiet --chrome-flags='--headless' --output-path=./lighthouse-results.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegreenwebfoundation/lighthouse-co2-action.git"
+  },
+  "keywords": [
+    "tgwf"
+  ],
+  "author": "Chris Adams",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/thegreenwebfoundation/lighthouse-co2-action/issues"
+  },
+  "homepage": "https://github.com/thegreenwebfoundation/lighthouse-co2-action#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lighthouse": "^7.0.0",
+    "lighthouse-plugin-co2": "0.0.14"
+  }
+}
