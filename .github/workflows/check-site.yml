@@ -1,0 +1,21 @@
+name: Test out
+
+on:
+  - push:
+
+jobs:
+  prepare_branch:
+    name: Prepare branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Install node
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: 12.x
+      - name: Install Dependencies
+        run: npm install
+      - name: check a site against lighthouse
+        run: npm run lighthouse-check
+
