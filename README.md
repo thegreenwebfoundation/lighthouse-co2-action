@@ -1,5 +1,7 @@
 # lighthouse-co2-action
 
+## _this project has been deprecated, and is no longer maintained. Please see the [greenspeed project](https://github.com/thegreenwebfoundation/greenspeed) for web performance, accessibility and carbon monitoring japery with the Green Web Foundation. It does all the same stuff, and more._
+
 A forkable repo, as an experiment in using github actions to git-scrape a site to record how well they perform in terms of accessibility, performance, and carbon emissions from transfer
 
 # The big idea
